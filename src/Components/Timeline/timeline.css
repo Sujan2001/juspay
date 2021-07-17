@@ -1,0 +1,182 @@
+.timeline-divison {
+  overflow: hidden;
+  position: relative;
+  background-color: #f4f6fa;
+  padding: 50px;
+  border-radius: 14px;
+}
+
+.timeline-head {
+  font-size: 2.3rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #21201e;
+}
+
+.jjj {
+  width: 500px;
+  height: 435px;
+  overflow: scroll;
+  background-color: white;
+  padding: 30px;
+  box-shadow: inset 0 0 10px;
+}
+@media (max-width: 510px) {
+  .jjj {
+    width: 350px;
+  }
+}
+.MuiTimelineDot-defaultGrey {
+  transition: 0.2s ease-in;
+}
+
+.time-com {
+  display: flex;
+  margin-top: 50px;
+}
+
+.com-1 {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.com-2 {
+  flex: 0.4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.t-img {
+  width: 80%;
+  object-fit: contain;
+}
+
+.com2-head {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #21201e;
+}
+
+.com2-subhead {
+  color: #8a8f98;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.com2-second-sub1 {
+  display: inline-block;
+  color: grey;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+/* .com2-second-sub2{
+    display: inline-block;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+} */
+.mod {
+  display: none;
+}
+@media (max-width: 1052px) {
+  .time-com {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid grey;
+  }
+  .MuiTimeline-alignAlternate {
+    display: none !important;
+  }
+  .mod1 {
+    display: none;
+  }
+  .mod {
+    display: flex;
+  }
+}
+
+@media (max-width: 950px) {
+  .MuiTimelineConnector-root {
+    height: 450px !important;
+  }
+}
+
+.MuiTimelineDot-defaultGrey {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+}
+.MuiTimeline-alignAlternate {
+  position: absolute !important;
+  left: 44% !important;
+  top: 190px !important;
+}
+
+.MuiTimelineConnector-root {
+  height: 350px;
+}
+
+@media (max-width: 950px) {
+  .MuiTimeline-alignAlternate {
+    position: absolute !important;
+    left: 41% !important;
+    top: 190px !important;
+  }
+}
+
+@media (max-width: 1202px) {
+  /* .MuilTimeline-root {
+    display: none !important;
+  } */
+}
+
+@media (max-width: 1202px) {
+  .com-2 {
+    padding-bottom: 50px;
+  }
+  .com-1 {
+    margin: 50px;
+  }
+}
+
+@media (max-width: 502px) {
+  .t-img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 600px) {
+  .com-1 {
+    margin: 0;
+    margin-top: 25px;
+  }
+  .com2-head {
+    font-size: 0.8rem;
+  }
+  .timeline-head {
+    font-size: 1.2rem;
+  }
+  .com2-subhead {
+    font-size: 1rem;
+  }
+  .com2-second-sub1 {
+    font-size: 0.8rem;
+  }
+}
+
+.ty {
+  font-family: "Poppins";
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #21201e;
+}

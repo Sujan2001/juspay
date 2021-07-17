@@ -1,0 +1,77 @@
+.device-main {
+  background-color: #f4f6fa;
+  padding: 50px 10px;
+  display: flex;
+}
+
+.count {
+  min-width: 180px;
+  min-height: 128px;
+  flex: 0.3;
+  margin: 25px;
+  position: relative;
+  background-color: white;
+  border-radius: 0.25em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 8px 10px -6px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.count:hover {
+  transform: scale(1.1);
+}
+
+.num {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #020be9;
+}
+.abt {
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  color: #8a8d98;
+}
+
+.triangle {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: -15px;
+  left: 40%;
+}
+
+.device-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+}
+.device-right {
+  display: flex;
+  justify-content: center;
+}
+.device-text {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin-left: 15px;
+}
+.device-pre {
+  text-align: left;
+  color: #8a8d98;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 15px;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,78 @@
+.footer-section {
+  background-color: #f4f6fa;
+  padding: 30px;
+  margin: 30px;
+  margin-top: 0px;
+  padding-top: 70px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.footer-left {
+  font-family: "Ubuntu", sans-serif;
+  color: #21201e;
+  margin: 15px;
+  margin-left: 0;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.col-lg-3 {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-center-header {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: #21201e;
+  text-align: left;
+  font-weight: 600;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 188px;
+}
+
+.footer-center-content {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  width: 180px;
+  font-weight: 400;
+  color: #21201e;
+}
+@media (max-width: 768px) {
+  .footer-center-header {
+    margin-left: -2px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-section {
+    margin: 0;
+  }
+  .footer-center-content {
+    text-align: center;
+  }
+  .footer-center-header {
+    text-align: center;
+  }
+  .logo-img {
+    margin-left: -22px;
+  }
+  .col-lg-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.foo-icon {
+  font-size: 20px;
+  margin: 10px;
+  color: #8a8d98;
+}
